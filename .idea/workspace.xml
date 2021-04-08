@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9b81e83-debd-450f-bc15-f5a9dd00c80f" name="Default Changelist" comment="Adding router in progress, adding paths for different slides" />
+    <list default="true" id="f9b81e83-debd-450f-bc15-f5a9dd00c80f" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +121,7 @@
       <workItem from="1615533057174" duration="645000" />
       <workItem from="1616509530382" duration="274000" />
       <workItem from="1616761576869" duration="783000" />
+      <workItem from="1617873959842" duration="551000" />
     </task>
     <task id="LOCAL-00001" summary="Layout is ready, working slider component">
       <created>1611734642504</created>
@@ -141,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612184225863</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <created>1617874116067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617874116067</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +173,8 @@
     <MESSAGE value="Layout is ready, working slider component" />
     <MESSAGE value="Slider is finished, started adding router" />
     <MESSAGE value="Adding router in progress, adding paths for different slides" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding router in progress, adding paths for different slides" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="823" y="416" width="263" height="204" key="#ESLint" timestamp="1610544698208">
@@ -189,6 +200,10 @@
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="464" y="155" key="SettingsEditor/0.0.1920.1043/1920.0.1920.1080@0.0.1920.1043" timestamp="1611323273991" />
+    <state x="794" y="257" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1617874121190">
+      <screen x="0" y="0" width="1920" height="1043" />
+    </state>
+    <state x="794" y="257" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1043@0.0.1920.1043" timestamp="1617874121190" />
     <state x="666" y="269" width="772" height="502" key="find.popup" timestamp="1616761611625">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
