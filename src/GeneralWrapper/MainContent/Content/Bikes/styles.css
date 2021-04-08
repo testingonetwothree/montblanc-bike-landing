@@ -1,0 +1,162 @@
+.content__main-wrapper {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow: hidden;
+    flex: 1;
+}
+
+.content__wrapper_images {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+    flex: 3;
+}
+
+
+.content__image_current-wrapper {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+}
+
+.content__image_next-wrapper {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.content__image-current {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.content__image-next {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: left;
+}
+
+.content__wrapper_japanese {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+}
+
+.content__wrapper_japanese-second {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.content__image_logo {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 18rem;
+    height: 18rem;
+    z-index: 1;
+}
+
+.content__image-box-shadow-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+}
+
+.content__image-box-shadow-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    box-shadow: #060507 0 0 50px 50px;
+}
+
+
+/* L A P T O P */
+
+@media (max-width: 1440px) {
+    .content__image_next-wrapper {
+        display: none;
+    }
+
+    .content__image-current {
+        object-fit: cover;
+    }
+}
+
+
+/* T A B L E T */
+
+@media (max-width: 1024px) {
+    .content__image_logo {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .content__image-next {
+        display: none;
+    }
+
+    .content__wrapper_japanese {
+        width: 210%;
+    }
+
+    .content__image-current {
+        object-fit: cover;
+    }
+}
+
+
+/* T A B L E T 768PX */
+
+@media (max-width: 768px) {
+    .content__wrapper_japanese {
+        width: 200%;
+    }
+
+    .content__image-current {
+        object-fit: contain;
+    }
+}
+
+
+/* M O B I L E */
+
+@media (max-width: 425px) {
+    .content__image_logo {
+        width: 7rem;
+        height: 7rem;
+        top: 1rem;
+        right: 1rem;
+    }
+}
+
+/* A N I M A T I O N */
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .content__image_logo {
+        animation: content__image_logo-spin infinite 60s linear;
+    }
+}
+
+@keyframes content__image_logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

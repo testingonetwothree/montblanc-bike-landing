@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    background: #060507;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* M O B I L E */
+
+@media (max-width: 425px) {
+    .content {
+        height: unset;
+        flex: 1;
+    }
+}
+
+

@@ -1,0 +1,34 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Druk Wide Bold', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.6rem;
+}
+
+
+button {
+    font-family: inherit;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+    font-family: "Druk Wide Bold";
+    src: url("assets/fonts/Druk Wide Bold/Druk Wide Bold.eot"),
+    url("assets/fonts/Druk Wide Bold/DrukWideBold.woff2") format("woff2"),
+    url("assets/fonts/Druk Wide Bold/DrukWideBold.woff") format("woff"),
+    url("assets/fonts/Druk Wide Bold/DrukWideBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
